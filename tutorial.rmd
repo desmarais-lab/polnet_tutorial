@@ -1,5 +1,12 @@
+my_render <- function(input, encoding) {
+rmarkdown::render(input, clean = FALSE, encoding = encoding)
+}
+
 ---
-output: html_document
+#' output:
+#'   html_document:
+#'     keep_md: TRUE
+knit: my_render
 ---
 <title>{Network Analysis Tutorial \ With Applications in \R }</title>
 
