@@ -1,4 +1,6 @@
 ---
+title: "PolNet 2018 Workshop"
+date: 06/06/2018
 output: html_document
 ---
 
